@@ -1,0 +1,21 @@
+name: clinic-appointments-listing-flutter
+description: An app to show appointments of a clinic.
+version: 0.2.1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_spinkit: ^4.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.shinow.clinic-appointments-listing-flutter
+    pluginClass: DynamicListViewPlugin
